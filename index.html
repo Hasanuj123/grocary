@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MH grocery store</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> MH grocery store </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG90YXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="image">
+                <div class="content">
+                    <h3>Potato</h3>
+                    <span class="price">₹20/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="image">
+                <div class="content">
+                    <h3>Banana</h3>
+                    <span class="price">₹40/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.unsplash.com/photo-1584306670957-acf935f5033c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFwcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="image">
+                <div class="content">
+                    <h3>Apple</h3>
+                    <span class="price">₹100/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : ₹160/- </div>
+            <a href="#" class="btn">checkout</a>
+
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="Your Email" class="box">
+            <input type="password" placeholder="Your Password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for your family </h3>
+            <p>Compared with produce grown using usual (conventional) methods, organically grown produce has lower levels of pesticide residue. The safety rules for the highest levels of residue allowed on conventional produce have changed. In many cases, the levels have been lowered..</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </section>
+    <section class="features" id="features">
+
+        <h1 class="heading"> our <span>features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/484152000/photo/wooden-crate-filled-with-fresh-organic-vegetables.jpg?b=1&s=170667a&w=0&k=20&c=Ir3Hss6Nu0lusbimdhxcrVxi-8if9hStpsldwdHrfys="
+                    alt="">
+                <h3>fresh and organic</h3>
+                <p>Organic produce may have more of certain antioxidants and types of flavonoids, which have antioxidant properties</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlbGl2ZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="">
+                <h3>free delivery</h3>
+                <p>The delivery of product directly to the recipient's address without charge to the recipient.!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1414744533/photo/woman-hand-holding-credit-cards-and-using-smartphone-for-shopping-online-with-payment-on.jpg?b=1&s=170667a&w=0&k=20&c=3EYPAKeQbFEgiK7ED-f2nM_9khgvdYxV0u5Uzq7EahY="
+                    alt="">
+                <h3>easy payments</h3>
+                <p>You can choose any option for Payment There are no monthly fees or minimum volume requirements</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1562599938-3521dadf5621?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbmdvJTIwZmF6bGl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                    <h3>fresh Mango</h3>
+                    <div class="price"> ₹60/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1587049633312-d628ae50a8ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25pb258ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>fresh onion</h3>
+                    <div class="price"> ₹ 40/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1613454320437-0c228c8b1723?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVhdHxlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>fresh meat</h3>
+                    <div class="price"> ₹ 250 /- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1639427444459-85a1b6ac2d68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fENhcnJvdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                    <h3>fresh Carrot </h3>
+                    <div class="price"> ₹ 50 /- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1635774855536-9728f2610245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvdGF0b3xlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>fresh potato</h3>
+                    <div class="price"> ₹ 20/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1590005024862-6b67679a29fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZvY2Fkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>fresh avocado</h3>
+                    <div class="price"> ₹ 25/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1606909425458-6b97ef5ebab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JlZW4lMjBjaGlsaXxlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>Green chili</h3>
+                    <div class="price"> ₹ 100/kg  </div> 
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1673442946565-f5e13f8db122?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29saWZsb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                    <h3>green coliflor</h3>
+                    <div class="price"> ₹ 25/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span>categories</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1359860542/photo/food-and-drink-background.jpg?s=612x612&w=is&k=20&c=nF5knjitkFN6d6EWLnOpvtKAgsAqOM1YTXkdB0TYqMw="
+                    alt="">
+                <h3>vegitables</h3>
+                <p>upto 20% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8RnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="">
+                <h3>fresh fruits</h3>
+                <p>upto 35% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1156492841/photo/vegetable-and-fruit-baby-puree-in-white-bowls-with-ingredients-baby-food-concept.jpg?b=1&s=170667a&w=0&k=20&c=LHYZSiW7YoRg3DTUFvzu4utw5I_iSHDjTOkj0cjw_qI="
+                    alt="">
+                <h3>Baby food</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/889700328/photo/fresh-organic-dairy-products.jpg?b=1&s=170667a&w=0&k=20&c=SK_VGpuHZOmI-Nj-Uu1Koo21Rp1cpksAQ_v0nFXXKRs="
+                    alt="">
+                <h3>Dairy Products</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60g"
+                        alt="">
+                    <p>Their brunch is awesome, I love the avocado toast and the California focaccia. Pizza is really good as well</p>
+                    <h3>Hasan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./assest/image1.jpg.jpeg"
+                        alt="image">
+                    <p>wow so nice for food product</p>
+                    <h3>Hasan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./assest/image2.jpg.jpeg"
+                        alt="">
+                    <p>Thank you for on-time delivery</p>
+                    <h3>Muktaur</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est
+                        maxime ad tempore quasi tenetur.</p>
+                    <h3>Hasanat</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <!-- <i class="fas fa-star-half-alt"></i> -->
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                        alt="">
+                    <p>lovely App Something I really appreciate</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 8 Jth une, 2022 </a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Organic food isn’t just a type of food category but actually is a way of living one’s life, which is entirely in sync with Mother Nature and our human body. Our body was never built to consume poison, manmade chemical albeit in smaller quantities only</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHZlZ2V0YWJsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 8th may, 2020 </a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Organic food is not a recent trend or a fad as it is made out to be. Before green revolution, everything grown in India was by default organic.At a basic level, let’s first understand the difference between Organic farming and conventional farming Organic Farming is the farming in union with Mother.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1359860542/photo/food-and-drink-background.jpg?s=2048x2048&w=is&k=20&c=ToQoRpQoWQ-roGZf9T-3kDpDA1FwqnUzWMx2ItsX4Mc=" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Fresh vegetables and fruits are the basic requirements that help in promoting good health. A healthy diet should initiate with fresh vegetables so fresh vegetables in Hyderabad plays the main role in satisfying the people’s requirement. Many people have doubled the consumption of fresh vegetables in their diet. </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3> MH grocery store <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <!-- <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a> -->
+                <a href="#" class="links"> <i class="fas fa-phone"></i> 9064989422 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> mdhasanujjaman001@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Kolkata, india - 700135 </a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+    
+        </div>
+    
+        <div class="credit"> created by <span> MD HASANUJJAMAN</span> </div>
+    
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
